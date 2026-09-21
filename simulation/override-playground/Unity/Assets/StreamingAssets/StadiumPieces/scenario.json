@@ -1,0 +1,1905 @@
+{
+  "mode": "Head-to-head practice",
+  "source": "Override manual v2 FO-2, A12; assembly pp150-164",
+  "coordinates": "Native SI x-right/y-toward-audience/z-up",
+  "status": "Drawing-backed group centers with contact-fitted reset poses; exact free-object pose audit still pending",
+  "pieces": [
+    {
+      "id": "piece-000",
+      "kind": "redBlue",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.0,
+        -0.5981,
+        0.261234375
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-001",
+      "kind": "redBlue",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        0.0,
+        0.261234375
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-002",
+      "kind": "redBlue",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        0.0,
+        0.09615625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013906
+    },
+    {
+      "id": "piece-003",
+      "kind": "redBlue",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.0,
+        0.5981,
+        0.09615625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013906
+    },
+    {
+      "id": "piece-004",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.230796875,
+        -1.1961,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-005",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.1961,
+        -1.1611687499999999,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.037031
+    },
+    {
+      "id": "piece-006",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.632796875,
+        -0.5981,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-007",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        -0.56316875,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.037031
+    },
+    {
+      "id": "piece-008",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5634031249999999,
+        0.5981,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-009",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        0.6330312499999999,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.037031
+    },
+    {
+      "id": "piece-010",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.1614031249999999,
+        1.1961,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-011",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.1961,
+        1.23103125,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        -0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.037031
+    },
+    {
+      "id": "piece-012",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Preload",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-013",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Preload",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-014",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-015",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-016",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-017",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-018",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-019",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-020",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-021",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-022",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-023",
+      "kind": "redYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-024",
+      "kind": "yellowYellow",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-025",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-026",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-027",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-028",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-029",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-030",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-031",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-032",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-033",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-034",
+      "kind": "cup",
+      "alliance": "red",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-035",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.1614031249999999,
+        -1.1961,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-036",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.1961,
+        -1.22821875,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.034219
+    },
+    {
+      "id": "piece-037",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5634031249999999,
+        -0.5981,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-038",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        -0.6302187499999999,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.034219
+    },
+    {
+      "id": "piece-039",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.632796875,
+        0.5981,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-040",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        0.56598125,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.034219
+    },
+    {
+      "id": "piece-041",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.230796875,
+        1.1961,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.0,
+        0.7071067811865475,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.036797
+    },
+    {
+      "id": "piece-042",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.1961,
+        1.16398125,
+        0.04015
+      ],
+      "quaternion": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "A12 cluster center; radial contact fit (NOT dimensioned individual-pin XY)",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.034219
+    },
+    {
+      "id": "piece-043",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Preload",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-044",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Preload",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-045",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-046",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-047",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-048",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-049",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-050",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-051",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-052",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-053",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-054",
+      "kind": "blueYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-055",
+      "kind": "yellowYellow",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-056",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-057",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-058",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-059",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-060",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-061",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-062",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-063",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-064",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-065",
+      "kind": "cup",
+      "alliance": "blue",
+      "state": "Reserve",
+      "clearSideUp": false
+    },
+    {
+      "id": "piece-066",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        1.7431,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-067",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        -1.7431,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-068",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        1.7431,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-069",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        -1.7431,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-070",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        0.5981,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-071",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        -0.5981,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-072",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        0.5981,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-073",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        -0.5981,
+        0.096234375
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013984
+    },
+    {
+      "id": "piece-074",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.1961,
+        1.1961,
+        0.09615625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013906
+    },
+    {
+      "id": "piece-075",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        0.5981,
+        0.09615625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013906
+    },
+    {
+      "id": "piece-076",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        -0.5981,
+        0.09615625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013906
+    },
+    {
+      "id": "piece-077",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.1961,
+        -1.1961,
+        0.09615625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.013906
+    },
+    {
+      "id": "piece-078",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.1961,
+        -0.5981,
+        0.06915625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "neutral goal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.005156
+    },
+    {
+      "id": "piece-079",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        -1.1961,
+        0.06915625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "neutral goal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.005156
+    },
+    {
+      "id": "piece-080",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        1.1961,
+        0.06915625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "neutral goal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.005156
+    },
+    {
+      "id": "piece-081",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.1961,
+        0.5981,
+        0.06915625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "neutral goal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.005156
+    },
+    {
+      "id": "piece-082",
+      "kind": "yellowYellow",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.0,
+        0.0,
+        0.14535625
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "neutral goal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact-fitted development reset, exact official free-object resting pose still unverified",
+      "contactFitOffsetMeters": 0.005156
+    },
+    {
+      "id": "piece-083",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.6785,
+        1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-084",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-085",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5177,
+        1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-086",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.6785,
+        -1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-087",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5981,
+        -1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-088",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -0.5177,
+        -1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-089",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5177,
+        1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-090",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-091",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.6785,
+        1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-092",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5177,
+        -1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-093",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.5981,
+        -1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-094",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        0.6785,
+        -1.7431,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-095",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        0.6785,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-096",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        0.5981,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-097",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        0.5177,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-098",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        -0.5177,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-099",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        -0.5981,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-100",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        -1.7431,
+        -0.6785,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-101",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        0.6785,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-102",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        0.5981,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-103",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        0.5177,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-104",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        -0.5177,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-105",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        -0.5981,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-106",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": false,
+      "position": [
+        1.7431,
+        -0.6785,
+        0.0
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "group": "perimeter",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-107",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        -1.1961,
+        1.1961,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-108",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        -0.5981,
+        0.5981,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-109",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        0.5981,
+        -0.5981,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-110",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        1.1961,
+        -1.1961,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "diagonal",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-111",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        0.0,
+        -0.5981,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-112",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        0.5981,
+        0.0,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-113",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        -0.5981,
+        0.0,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-114",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        0.0,
+        0.5981,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "midfield boundary",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-115",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        -1.1961,
+        -1.1961,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-116",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        -0.5981,
+        -0.5981,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-117",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        0.5981,
+        0.5981,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    },
+    {
+      "id": "piece-118",
+      "kind": "cup",
+      "alliance": "neutral",
+      "state": "Field",
+      "clearSideUp": true,
+      "position": [
+        1.1961,
+        1.1961,
+        0.1645
+      ],
+      "quaternion": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "group": "cross cluster",
+      "placementSource": "Appendix A12 / FO-2",
+      "verticalStatus": "Contact settling required"
+    }
+  ],
+  "robotPosition": [
+    -1.45,
+    0,
+    0.006
+  ]
+}

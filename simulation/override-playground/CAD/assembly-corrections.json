@@ -1,0 +1,3686 @@
+{
+  "status": "candidate; dense solid validation pending",
+  "original": "/Users/kamachi/Downloads/RatchetingClaw.FCStd",
+  "simulationCopy": "/Users/kamachi/Documents/OverridePlayground/CAD/RatchetingClaw-Simulation.FCStd",
+  "changes": [
+    {
+      "object": "I_channel2_010",
+      "label": "Upper parallel lift arm",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -133.35,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -120.64999999999999,
+        0.0,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing012",
+      "label": "Four-bar arm bearing008",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -136.35,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -123.64999999999999,
+        0.0,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw072",
+      "label": "Screw072",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        -12.7,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        -12.7,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw073",
+      "label": "Screw073",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        12.7,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        12.7,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing013",
+      "label": "Four-bar arm bearing009",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -136.35,
+        330.2,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -123.64999999999999,
+        330.2,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw074",
+      "label": "Screw074",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        317.5,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        317.5,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw075",
+      "label": "Screw075",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        342.9,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        342.9,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_channel2_011",
+      "label": "Upper parallel lift arm001",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -133.35,
+        0.0,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -120.64999999999999,
+        0.0,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing014",
+      "label": "Four-bar arm bearing010",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -136.35,
+        0.0,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -123.64999999999999,
+        0.0,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw076",
+      "label": "Screw076",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        -12.700000000000017,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        -12.700000000000017,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw077",
+      "label": "Screw077",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        12.699999999999989,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        12.699999999999989,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing015",
+      "label": "Four-bar arm bearing011",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -136.35,
+        330.2,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -123.64999999999999,
+        330.2,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw078",
+      "label": "Screw078",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        317.5,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        317.5,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw079",
+      "label": "Screw079",
+      "translationMm": [
+        12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -149.35,
+        342.9,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -136.65,
+        342.9,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_channel2_012",
+      "label": "Upper parallel lift arm002",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        133.35,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        120.64999999999999,
+        0.0,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing016",
+      "label": "Four-bar arm bearing012",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        136.35,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        123.64999999999999,
+        0.0,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw080",
+      "label": "Screw080",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        -12.7,
+        0.0
+      ],
+      "correctedPositionMm": [
+        136.65,
+        -12.7,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw081",
+      "label": "Screw081",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        12.7,
+        0.0
+      ],
+      "correctedPositionMm": [
+        136.65,
+        12.7,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing017",
+      "label": "Four-bar arm bearing013",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        136.35,
+        330.2,
+        0.0
+      ],
+      "correctedPositionMm": [
+        123.64999999999999,
+        330.2,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw082",
+      "label": "Screw082",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        317.5,
+        0.0
+      ],
+      "correctedPositionMm": [
+        136.65,
+        317.5,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw083",
+      "label": "Screw083",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        342.9,
+        0.0
+      ],
+      "correctedPositionMm": [
+        136.65,
+        342.9,
+        0.0
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_channel2_013",
+      "label": "Upper parallel lift arm003",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        133.35,
+        0.0,
+        88.9
+      ],
+      "correctedPositionMm": [
+        120.64999999999999,
+        0.0,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing018",
+      "label": "Four-bar arm bearing014",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        136.35,
+        0.0,
+        88.9
+      ],
+      "correctedPositionMm": [
+        123.64999999999999,
+        0.0,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw084",
+      "label": "Screw084",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        -12.700000000000017,
+        88.9
+      ],
+      "correctedPositionMm": [
+        136.65,
+        -12.700000000000017,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw085",
+      "label": "Screw085",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        12.699999999999989,
+        88.9
+      ],
+      "correctedPositionMm": [
+        136.65,
+        12.699999999999989,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_bearing019",
+      "label": "Four-bar arm bearing015",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        136.35,
+        330.2,
+        88.9
+      ],
+      "correctedPositionMm": [
+        123.64999999999999,
+        330.2,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw086",
+      "label": "Screw086",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        317.5,
+        88.9
+      ],
+      "correctedPositionMm": [
+        136.65,
+        317.5,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_screw087",
+      "label": "Screw087",
+      "translationMm": [
+        -12.7,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        149.35,
+        342.9,
+        88.9
+      ],
+      "correctedPositionMm": [
+        136.65,
+        342.9,
+        88.9
+      ],
+      "reason": "Upper rail and bearing mounting moved inward one hole to clear fixed uprights"
+    },
+    {
+      "object": "I_channel3_004",
+      "label": "Lift ladder crossmember",
+      "translationMm": [
+        0,
+        165.1,
+        0
+      ],
+      "originalPositionMm": [
+        -139.7,
+        63.5,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        228.6,
+        88.9
+      ],
+      "reason": "Lower ladder tie and fasteners relocated behind the upper-stage swept volume"
+    },
+    {
+      "object": "I_screw068",
+      "label": "Screw068",
+      "translationMm": [
+        0,
+        165.1,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        63.5,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        228.6,
+        91.00000000000003
+      ],
+      "reason": "Lower ladder tie and fasteners relocated behind the upper-stage swept volume"
+    },
+    {
+      "object": "I_screw069",
+      "label": "Screw069",
+      "translationMm": [
+        0,
+        165.1,
+        0
+      ],
+      "originalPositionMm": [
+        114.3,
+        63.5,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        114.3,
+        228.6,
+        91.00000000000003
+      ],
+      "reason": "Lower ladder tie and fasteners relocated behind the upper-stage swept volume"
+    },
+    {
+      "object": "I_channel3_005",
+      "label": "Lift ladder crossmember001",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -139.7,
+        266.69999999999993,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        279.3999999999999,
+        88.9
+      ],
+      "reason": "Lower ladder tie and fasteners relocated behind the upper-stage swept volume"
+    },
+    {
+      "object": "I_screw070",
+      "label": "Screw070",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        266.69999999999993,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        279.3999999999999,
+        91.00000000000003
+      ],
+      "reason": "Lower ladder tie and fasteners relocated behind the upper-stage swept volume"
+    },
+    {
+      "object": "I_screw071",
+      "label": "Screw071",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        114.3,
+        266.69999999999993,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        114.3,
+        279.3999999999999,
+        91.00000000000003
+      ],
+      "reason": "Lower ladder tie and fasteners relocated behind the upper-stage swept volume"
+    },
+    {
+      "object": "I_channel3_004",
+      "label": "Lift ladder crossmember",
+      "translationMm": [
+        0,
+        0,
+        -88.9
+      ],
+      "originalPositionMm": [
+        -139.7,
+        228.6,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        228.6,
+        0.0
+      ],
+      "reason": "Rear tie remounted on the lower parallel arm"
+    },
+    {
+      "object": "I_screw068",
+      "label": "Screw068",
+      "translationMm": [
+        0,
+        0,
+        -88.9
+      ],
+      "originalPositionMm": [
+        -114.3,
+        228.6,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        228.6,
+        2.1000000000000227
+      ],
+      "reason": "Rear tie remounted on the lower parallel arm"
+    },
+    {
+      "object": "I_screw069",
+      "label": "Screw069",
+      "translationMm": [
+        0,
+        0,
+        -88.9
+      ],
+      "originalPositionMm": [
+        114.3,
+        228.6,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        114.3,
+        228.6,
+        2.1000000000000227
+      ],
+      "reason": "Rear tie remounted on the lower parallel arm"
+    },
+    {
+      "object": "I_channel3_005",
+      "label": "Lift ladder crossmember001",
+      "translationMm": [
+        0,
+        0,
+        -88.9
+      ],
+      "originalPositionMm": [
+        -139.7,
+        279.3999999999999,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        279.3999999999999,
+        0.0
+      ],
+      "reason": "Rear tie remounted on the lower parallel arm"
+    },
+    {
+      "object": "I_screw070",
+      "label": "Screw070",
+      "translationMm": [
+        0,
+        0,
+        -88.9
+      ],
+      "originalPositionMm": [
+        -114.3,
+        279.3999999999999,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        279.3999999999999,
+        2.1000000000000227
+      ],
+      "reason": "Rear tie remounted on the lower parallel arm"
+    },
+    {
+      "object": "I_screw071",
+      "label": "Screw071",
+      "translationMm": [
+        0,
+        0,
+        -88.9
+      ],
+      "originalPositionMm": [
+        114.3,
+        279.3999999999999,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        114.3,
+        279.3999999999999,
+        2.1000000000000227
+      ],
+      "reason": "Rear tie remounted on the lower parallel arm"
+    },
+    {
+      "object": "I_channel3_003",
+      "label": "Tower lower tie",
+      "translationMm": [
+        0,
+        50.8,
+        -279.4
+      ],
+      "originalPositionMm": [
+        -139.7,
+        -127.0,
+        355.6
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        -76.2,
+        76.20000000000005
+      ],
+      "reason": "Tower tie relocated to lower mounting holes below the moving-stage envelope"
+    },
+    {
+      "object": "I_channel3_23",
+      "label": "Tower upper tie",
+      "translationMm": [
+        0,
+        50.8,
+        -330.2
+      ],
+      "originalPositionMm": [
+        -139.7,
+        -127.0,
+        444.5
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        -76.2,
+        114.30000000000001
+      ],
+      "reason": "Tower tie relocated to lower mounting holes below the moving-stage envelope"
+    },
+    {
+      "object": "I_channel3_25",
+      "label": "Chassis crossmember",
+      "translationMm": [
+        0,
+        139.7,
+        0
+      ],
+      "originalPositionMm": [
+        -152.4,
+        -190.5,
+        65.0
+      ],
+      "correctedPositionMm": [
+        -152.4,
+        -50.80000000000001,
+        65.0
+      ],
+      "reason": "Front chassis crossmember moved rearward to clear lowered jaws and intake rollers"
+    },
+    {
+      "object": "SimulationTowerPlateL",
+      "reason": "New 3.2 mm simulation adapter plate supports relocated tower ties",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationTowerPlateR",
+      "reason": "New 3.2 mm simulation adapter plate supports relocated tower ties",
+      "hardwareValidated": false
+    },
+    {
+      "object": "I_cylinder25",
+      "label": "Pneumatic jaw-release cylinder",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        -105.0,
+        -72.0,
+        42.0
+      ],
+      "correctedPositionMm": [
+        -105.0,
+        -72.0,
+        67.4
+      ],
+      "reason": "Release cylinders raised above rotating wheel gear envelopes"
+    },
+    {
+      "object": "I_cylinder001",
+      "label": "Pneumatic jaw-release cylinder001",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        105.0,
+        -72.0,
+        42.0
+      ],
+      "correctedPositionMm": [
+        105.0,
+        -72.0,
+        67.4
+      ],
+      "reason": "Release cylinders raised above rotating wheel gear envelopes"
+    },
+    {
+      "object": "I_channel3_007",
+      "label": "Lift ladder crossmember004",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        292.1,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        266.70000000000005,
+        88.9
+      ],
+      "reason": "Upper distal tie moved away from claw carriage uprights"
+    },
+    {
+      "object": "I_screw092",
+      "label": "Screw092",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        292.1,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        266.70000000000005,
+        91.00000000000003
+      ],
+      "reason": "Upper distal tie moved away from claw carriage uprights"
+    },
+    {
+      "object": "I_screw093",
+      "label": "Screw093",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        114.3,
+        292.1,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        114.3,
+        266.70000000000005,
+        91.00000000000003
+      ],
+      "reason": "Upper distal tie moved away from claw carriage uprights"
+    },
+    {
+      "object": "I_gear016",
+      "rotationDegrees": 3.4,
+      "reason": "Phase equal-size meshing gears to remove tooth overlap"
+    },
+    {
+      "object": "I_gear018",
+      "rotationDegrees": -0.4,
+      "reason": "Phase equal-size meshing gears to remove tooth overlap"
+    },
+    {
+      "object": "I_gear019",
+      "rotationDegrees": -3.0,
+      "reason": "Phase equal-size meshing gears to remove tooth overlap"
+    },
+    {
+      "object": "I_channel2_07",
+      "label": "Pivoting claw jaw channel",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        -72.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        -85.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_bearing028",
+      "label": "Claw jaw bearing",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        -72.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        -85.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_screw106",
+      "label": "Screw106",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        -11.63978350160729,
+        -5.079905514447169,
+        -70.99999999999999
+      ],
+      "correctedPositionMm": [
+        -11.63978350160729,
+        -5.079905514447169,
+        -83.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_bearing029",
+      "label": "Claw jaw bearing001",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        3.6e-15,
+        -63.50118109137813,
+        -72.99999999999999
+      ],
+      "correctedPositionMm": [
+        3.6e-15,
+        -63.50118109137813,
+        -85.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_screw107",
+      "label": "Screw107",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        -11.63978350160728,
+        -68.58108660582529,
+        -70.99999999999999
+      ],
+      "correctedPositionMm": [
+        -11.63978350160728,
+        -68.58108660582529,
+        -83.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_channel2_019",
+      "label": "Pivoting claw jaw channel001",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        56.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        69.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_bearing030",
+      "label": "Claw jaw bearing002",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        56.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        69.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_screw108",
+      "label": "Screw108",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        -11.63978350160729,
+        -5.079905514447169,
+        58.99999999999999
+      ],
+      "correctedPositionMm": [
+        -11.63978350160729,
+        -5.079905514447169,
+        71.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_bearing031",
+      "label": "Claw jaw bearing003",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        3.6e-15,
+        -63.50118109137813,
+        56.99999999999999
+      ],
+      "correctedPositionMm": [
+        3.6e-15,
+        -63.50118109137813,
+        69.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_screw109",
+      "label": "Screw109",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        -11.63978350160728,
+        -68.58108660582529,
+        58.99999999999999
+      ],
+      "correctedPositionMm": [
+        -11.63978350160728,
+        -68.58108660582529,
+        71.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "ClawDetail005",
+      "label": "White nylon upper-jaw spacer",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        12.7
+      ],
+      "reason": "Upper jaw spacer follows raised support"
+    },
+    {
+      "object": "ClawDetail006",
+      "label": "White nylon upper-jaw spacer001",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        12.7
+      ],
+      "reason": "Upper jaw spacer follows raised support"
+    },
+    {
+      "object": "ClawDetail007",
+      "label": "White nylon upper-jaw spacer002",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        12.7
+      ],
+      "reason": "Upper jaw spacer follows raised support"
+    },
+    {
+      "object": "I_channel2_020",
+      "label": "Pivoting claw jaw channel002",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        -72.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        -85.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_bearing032",
+      "label": "Claw jaw bearing004",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        -72.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        -85.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_screw111",
+      "label": "Screw110",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        11.63978350160729,
+        -5.079905514447169,
+        -70.99999999999999
+      ],
+      "correctedPositionMm": [
+        11.63978350160729,
+        -5.079905514447169,
+        -83.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_bearing033",
+      "label": "Claw jaw bearing005",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        -3.6e-15,
+        -63.50118109137813,
+        -72.99999999999999
+      ],
+      "correctedPositionMm": [
+        -3.6e-15,
+        -63.50118109137813,
+        -85.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_screw112",
+      "label": "Screw111",
+      "translationMm": [
+        0,
+        0,
+        -12.7
+      ],
+      "originalPositionMm": [
+        11.63978350160728,
+        -68.58108660582529,
+        -70.99999999999999
+      ],
+      "correctedPositionMm": [
+        11.63978350160728,
+        -68.58108660582529,
+        -83.69999999999999
+      ],
+      "reason": "Lower jaw support and fasteners clear bottom wheel"
+    },
+    {
+      "object": "I_channel2_021",
+      "label": "Pivoting claw jaw channel003",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        56.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        69.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_bearing034",
+      "label": "Claw jaw bearing006",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        56.99999999999999
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        69.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_screw113",
+      "label": "Screw112",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        11.63978350160729,
+        -5.079905514447169,
+        58.99999999999999
+      ],
+      "correctedPositionMm": [
+        11.63978350160729,
+        -5.079905514447169,
+        71.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_bearing035",
+      "label": "Claw jaw bearing007",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        -3.6e-15,
+        -63.50118109137813,
+        56.99999999999999
+      ],
+      "correctedPositionMm": [
+        -3.6e-15,
+        -63.50118109137813,
+        69.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "I_screw114",
+      "label": "Screw113",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        11.63978350160728,
+        -68.58108660582529,
+        58.99999999999999
+      ],
+      "correctedPositionMm": [
+        11.63978350160728,
+        -68.58108660582529,
+        71.69999999999999
+      ],
+      "reason": "Upper jaw support and fasteners clear gear thickness"
+    },
+    {
+      "object": "ClawDetail013",
+      "label": "White nylon upper-jaw spacer003",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        12.7
+      ],
+      "reason": "Upper jaw spacer follows raised support"
+    },
+    {
+      "object": "ClawDetail014",
+      "label": "White nylon upper-jaw spacer004",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        12.7
+      ],
+      "reason": "Upper jaw spacer follows raised support"
+    },
+    {
+      "object": "ClawDetail015",
+      "label": "White nylon upper-jaw spacer005",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        12.7
+      ],
+      "reason": "Upper jaw spacer follows raised support"
+    },
+    {
+      "object": "I_claw_wheel003",
+      "label": "Claw gray spoked wheel \u00b7 reconstructed003",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        3.6e-15,
+        7.1e-15,
+        74.99999999999999
+      ],
+      "correctedPositionMm": [
+        3.6e-15,
+        7.1e-15,
+        100.39999999999998
+      ],
+      "reason": "Top wheel and end hardware spaced above raised jaw support"
+    },
+    {
+      "object": "I_collar025",
+      "label": "Claw wheel shaft collar003",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        3.6e-15,
+        7.1e-15,
+        81.99999999999999
+      ],
+      "correctedPositionMm": [
+        3.6e-15,
+        7.1e-15,
+        107.39999999999998
+      ],
+      "reason": "Top wheel and end hardware spaced above raised jaw support"
+    },
+    {
+      "object": "ClawDetail004",
+      "label": "Black wheel hub / spacer sleeve004",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        25.4
+      ],
+      "reason": "Top wheel and end hardware spaced above raised jaw support"
+    },
+    {
+      "object": "I_claw_wheel007",
+      "label": "Claw gray spoked wheel \u00b7 reconstructed007",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        -3.6e-15,
+        7.1e-15,
+        74.99999999999999
+      ],
+      "correctedPositionMm": [
+        -3.6e-15,
+        7.1e-15,
+        100.39999999999998
+      ],
+      "reason": "Top wheel and end hardware spaced above raised jaw support"
+    },
+    {
+      "object": "I_collar029",
+      "label": "Claw wheel shaft collar007",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        -3.6e-15,
+        7.1e-15,
+        81.99999999999999
+      ],
+      "correctedPositionMm": [
+        -3.6e-15,
+        7.1e-15,
+        107.39999999999998
+      ],
+      "reason": "Top wheel and end hardware spaced above raised jaw support"
+    },
+    {
+      "object": "ClawDetail012",
+      "label": "Black wheel hub / spacer sleeve009",
+      "translationMm": [
+        0,
+        0,
+        25.4
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        0.0,
+        25.4
+      ],
+      "reason": "Top wheel and end hardware spaced above raised jaw support"
+    },
+    {
+      "object": "I_channel2_19",
+      "label": "Claw cross frame",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        -12.7,
+        -63.5
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        0.0,
+        -63.5
+      ],
+      "reason": "Carriage ties seat against upright face and clear swinging wheels"
+    },
+    {
+      "object": "I_channel2_017",
+      "label": "Claw cross frame001",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        -12.7,
+        -12.7
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        0.0,
+        -12.7
+      ],
+      "reason": "Carriage ties seat against upright face and clear swinging wheels"
+    },
+    {
+      "object": "I_channel2_018",
+      "label": "Claw cross frame002",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        -12.7,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        0.0,
+        88.9
+      ],
+      "reason": "Carriage ties seat against upright face and clear swinging wheels"
+    },
+    {
+      "object": "I_cylinder25",
+      "label": "Pneumatic jaw-release cylinder",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        -105.0,
+        -72.0,
+        67.4
+      ],
+      "correctedPositionMm": [
+        -105.0,
+        -21.200000000000003,
+        67.4
+      ],
+      "reason": "Release cylinder moved behind jaw swept volume"
+    },
+    {
+      "object": "I_cylinder001",
+      "label": "Pneumatic jaw-release cylinder001",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        105.0,
+        -72.0,
+        67.4
+      ],
+      "correctedPositionMm": [
+        105.0,
+        -21.200000000000003,
+        67.4
+      ],
+      "reason": "Release cylinder moved behind jaw swept volume"
+    },
+    {
+      "object": "I_elbow",
+      "label": "Claw cylinder elbow",
+      "translationMm": [
+        0,
+        50.8,
+        25.4
+      ],
+      "originalPositionMm": [
+        -105.0,
+        36.0,
+        42.0
+      ],
+      "correctedPositionMm": [
+        -105.0,
+        86.8,
+        67.4
+      ],
+      "reason": "Cylinder fitting and provisional tubing follow cylinder mount"
+    },
+    {
+      "object": "I_elbow001",
+      "label": "Claw cylinder elbow001",
+      "translationMm": [
+        0,
+        50.8,
+        25.4
+      ],
+      "originalPositionMm": [
+        105.0,
+        36.0,
+        42.0
+      ],
+      "correctedPositionMm": [
+        105.0,
+        86.8,
+        67.4
+      ],
+      "reason": "Cylinder fitting and provisional tubing follow cylinder mount"
+    },
+    {
+      "object": "Detail073",
+      "label": "Claw cylinder tubing",
+      "translationMm": [
+        0,
+        50.8,
+        25.4
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        50.8,
+        25.4
+      ],
+      "reason": "Cylinder fitting and provisional tubing follow cylinder mount"
+    },
+    {
+      "object": "Detail074",
+      "label": "Claw cylinder tubing001",
+      "translationMm": [
+        0,
+        50.8,
+        25.4
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        50.8,
+        25.4
+      ],
+      "reason": "Cylinder fitting and provisional tubing follow cylinder mount"
+    },
+    {
+      "object": "I_motor006",
+      "label": "V5 lift motor \u00b7 inferred mounting",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        -143.0,
+        -78.0,
+        122.0
+      ],
+      "correctedPositionMm": [
+        -143.0,
+        -78.0,
+        172.8
+      ],
+      "reason": "Lift drive assembly raised four mounting holes clear of front drivetrain wheels"
+    },
+    {
+      "object": "I_motor007",
+      "label": "V5 lift motor \u00b7 inferred mounting001",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        143.0,
+        -78.0,
+        122.0
+      ],
+      "correctedPositionMm": [
+        143.0,
+        -78.0,
+        172.8
+      ],
+      "reason": "Lift drive assembly raised four mounting holes clear of front drivetrain wheels"
+    },
+    {
+      "object": "I_gear84",
+      "label": "Lift base reduction gear",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        -182.0,
+        -127.0,
+        82.55
+      ],
+      "correctedPositionMm": [
+        -182.0,
+        -127.0,
+        133.35
+      ],
+      "reason": "Lift drive assembly raised four mounting holes clear of front drivetrain wheels"
+    },
+    {
+      "object": "I_gear011",
+      "label": "Lift base reduction gear001",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        182.0,
+        -127.0,
+        82.55
+      ],
+      "correctedPositionMm": [
+        182.0,
+        -127.0,
+        133.35
+      ],
+      "reason": "Lift drive assembly raised four mounting holes clear of front drivetrain wheels"
+    },
+    {
+      "object": "I_pinion12",
+      "label": "Lift motor pinion",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        -182.0,
+        -78.0,
+        82.55
+      ],
+      "correctedPositionMm": [
+        -182.0,
+        -78.0,
+        133.35
+      ],
+      "reason": "Lift drive assembly raised four mounting holes clear of front drivetrain wheels"
+    },
+    {
+      "object": "I_pinion001",
+      "label": "Lift motor pinion001",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        182.0,
+        -78.0,
+        82.55
+      ],
+      "correctedPositionMm": [
+        182.0,
+        -78.0,
+        133.35
+      ],
+      "reason": "Lift drive assembly raised four mounting holes clear of front drivetrain wheels"
+    },
+    {
+      "object": "I_channel3_004",
+      "reason": "Tie and fasteners remounted on underside of lower arm to clear rear brace sweep"
+    },
+    {
+      "object": "I_screw068",
+      "reason": "Tie and fasteners remounted on underside of lower arm to clear rear brace sweep"
+    },
+    {
+      "object": "I_screw069",
+      "reason": "Tie and fasteners remounted on underside of lower arm to clear rear brace sweep"
+    },
+    {
+      "object": "I_channel3_005",
+      "reason": "Tie and fasteners remounted on underside of lower arm to clear rear brace sweep"
+    },
+    {
+      "object": "I_screw070",
+      "reason": "Tie and fasteners remounted on underside of lower arm to clear rear brace sweep"
+    },
+    {
+      "object": "I_screw071",
+      "reason": "Tie and fasteners remounted on underside of lower arm to clear rear brace sweep"
+    },
+    {
+      "object": "I_channel2_07",
+      "reason": "6.6 mm clearance bores through jaw support at pivot and wheel shaft axes",
+      "geometryModified": true
+    },
+    {
+      "object": "I_channel2_019",
+      "reason": "6.6 mm clearance bores through jaw support at pivot and wheel shaft axes",
+      "geometryModified": true
+    },
+    {
+      "object": "I_channel2_020",
+      "reason": "6.6 mm clearance bores through jaw support at pivot and wheel shaft axes",
+      "geometryModified": true
+    },
+    {
+      "object": "I_channel2_021",
+      "reason": "6.6 mm clearance bores through jaw support at pivot and wheel shaft axes",
+      "geometryModified": true
+    },
+    {
+      "object": "ClawDetail003",
+      "reason": "Wheel-gear spacer shortened to end at 57 mm below raised jaw support",
+      "geometryModified": true
+    },
+    {
+      "object": "ClawDetail011",
+      "reason": "Wheel-gear spacer shortened to end at 57 mm below raised jaw support",
+      "geometryModified": true
+    },
+    {
+      "object": "Detail034",
+      "reason": "Estimated 4.18 mm square shaft extended for spaced wheel stack",
+      "geometryModified": true
+    },
+    {
+      "object": "Detail041",
+      "reason": "Estimated 4.18 mm square shaft extended for spaced wheel stack",
+      "geometryModified": true
+    },
+    {
+      "object": "I_gear36",
+      "rotationDegrees": 5,
+      "reason": "Half-tooth phase offset for 36T motor gear"
+    },
+    {
+      "object": "I_gear002",
+      "rotationDegrees": 5,
+      "reason": "Half-tooth phase offset for 36T motor gear"
+    },
+    {
+      "object": "I_gear004",
+      "rotationDegrees": 5,
+      "reason": "Half-tooth phase offset for 36T motor gear"
+    },
+    {
+      "object": "I_gear006",
+      "rotationDegrees": 5,
+      "reason": "Half-tooth phase offset for 36T motor gear"
+    },
+    {
+      "object": "I_gear008",
+      "rotationDegrees": 5,
+      "reason": "Half-tooth phase offset for 36T motor gear"
+    },
+    {
+      "object": "I_gear010",
+      "rotationDegrees": 5,
+      "reason": "Half-tooth phase offset for 36T motor gear"
+    },
+    {
+      "object": "I_channel3_33",
+      "label": "Fixed front lift upright",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        -158.75,
+        -127.0,
+        63.5
+      ],
+      "correctedPositionMm": [
+        -158.75,
+        -127.0,
+        76.2
+      ],
+      "reason": "Tower upright raised one mounting hole clear of front motor gear teeth"
+    },
+    {
+      "object": "I_channel3_002",
+      "label": "Fixed front lift upright001",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        158.75,
+        -127.0,
+        63.5
+      ],
+      "correctedPositionMm": [
+        158.75,
+        -127.0,
+        76.2
+      ],
+      "reason": "Tower upright raised one mounting hole clear of front motor gear teeth"
+    },
+    {
+      "object": "I_gear36",
+      "label": "Motor transmission gear",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        -114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -173.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_motor11",
+      "label": "V5 drivetrain motor \u00b7 inferred placement",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        -114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -143.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_gear006",
+      "label": "Motor transmission gear003",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        -114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        173.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_motor003",
+      "label": "V5 drivetrain motor \u00b7 inferred placement003",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        -114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        143.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_gear002",
+      "label": "Motor transmission gear001",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        50.8,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -173.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_motor001",
+      "label": "V5 drivetrain motor \u00b7 inferred placement001",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        50.8,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -143.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_gear008",
+      "label": "Motor transmission gear004",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        50.8,
+        41.65
+      ],
+      "correctedPositionMm": [
+        173.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_motor004",
+      "label": "V5 drivetrain motor \u00b7 inferred placement004",
+      "translationMm": [
+        0,
+        0.4,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        50.8,
+        41.65
+      ],
+      "correctedPositionMm": [
+        143.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_gear004",
+      "label": "Motor transmission gear002",
+      "translationMm": [
+        0,
+        -0.4,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -173.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_motor002",
+      "label": "V5 drivetrain motor \u00b7 inferred placement002",
+      "translationMm": [
+        0,
+        -0.4,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -143.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_gear010",
+      "label": "Motor transmission gear005",
+      "translationMm": [
+        0,
+        -0.4,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        173.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_motor005",
+      "label": "V5 drivetrain motor \u00b7 inferred placement005",
+      "translationMm": [
+        0,
+        -0.4,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        114.3,
+        41.65
+      ],
+      "correctedPositionMm": [
+        143.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "0.4 mm center-distance allowance for drivetrain gear backlash"
+    },
+    {
+      "object": "I_channel3_19",
+      "label": "Lift ladder crossmember002",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        25.399999999999977,
+        88.9
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        38.09999999999998,
+        88.9
+      ],
+      "reason": "Upper proximal tie shifted one mounting hole away from rotating rear cross tie"
+    },
+    {
+      "object": "I_screw088",
+      "label": "Screw088",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        -114.3,
+        25.399999999999977,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        38.09999999999998,
+        91.00000000000003
+      ],
+      "reason": "Upper proximal tie shifted one mounting hole away from rotating rear cross tie"
+    },
+    {
+      "object": "I_screw089",
+      "label": "Screw089",
+      "translationMm": [
+        0,
+        12.7,
+        0
+      ],
+      "originalPositionMm": [
+        114.3,
+        25.399999999999977,
+        91.00000000000003
+      ],
+      "correctedPositionMm": [
+        114.3,
+        38.09999999999998,
+        91.00000000000003
+      ],
+      "reason": "Upper proximal tie shifted one mounting hole away from rotating rear cross tie"
+    },
+    {
+      "object": "I_channel2_19",
+      "label": "Claw cross frame",
+      "translationMm": [
+        0,
+        0,
+        12.7
+      ],
+      "originalPositionMm": [
+        -114.3,
+        0.0,
+        -63.5
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        0.0,
+        -50.8
+      ],
+      "reason": "Lower claw cross frame raised one mounting hole to clear swinging lower jaw support"
+    },
+    {
+      "object": "I_gear60",
+      "label": "Drive gear \u00b7 estimated 60T",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        -165.1,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -170.0,
+        -165.1,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear36",
+      "label": "Motor transmission gear",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -170.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear001",
+      "label": "Drive gear \u00b7 estimated 60T001",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        0.0,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -170.0,
+        0.0,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear002",
+      "label": "Motor transmission gear001",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        51.199999999999996,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -170.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear003",
+      "label": "Drive gear \u00b7 estimated 60T002",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        165.1,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -170.0,
+        165.1,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear004",
+      "label": "Motor transmission gear002",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -173.0,
+        113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -170.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor11",
+      "label": "V5 drivetrain motor \u00b7 inferred placement",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -140.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor001",
+      "label": "V5 drivetrain motor \u00b7 inferred placement001",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        51.199999999999996,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -140.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor002",
+      "label": "V5 drivetrain motor \u00b7 inferred placement002",
+      "translationMm": [
+        3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -140.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear005",
+      "label": "Drive gear \u00b7 estimated 60T003",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        -165.1,
+        41.65
+      ],
+      "correctedPositionMm": [
+        170.0,
+        -165.1,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear006",
+      "label": "Motor transmission gear003",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        170.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear007",
+      "label": "Drive gear \u00b7 estimated 60T004",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        0.0,
+        41.65
+      ],
+      "correctedPositionMm": [
+        170.0,
+        0.0,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear008",
+      "label": "Motor transmission gear004",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        51.199999999999996,
+        41.65
+      ],
+      "correctedPositionMm": [
+        170.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear009",
+      "label": "Drive gear \u00b7 estimated 60T005",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        165.1,
+        41.65
+      ],
+      "correctedPositionMm": [
+        170.0,
+        165.1,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_gear010",
+      "label": "Motor transmission gear005",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        173.0,
+        113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        170.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor003",
+      "label": "V5 drivetrain motor \u00b7 inferred placement003",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        140.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor004",
+      "label": "V5 drivetrain motor \u00b7 inferred placement004",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        51.199999999999996,
+        41.65
+      ],
+      "correctedPositionMm": [
+        140.0,
+        51.199999999999996,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor005",
+      "label": "V5 drivetrain motor \u00b7 inferred placement005",
+      "translationMm": [
+        -3.0,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        140.0,
+        113.89999999999999,
+        41.65
+      ],
+      "reason": "Transmission plane moved inward 3 mm to provide axial wheel sidewall clearance; shaft axes unchanged"
+    },
+    {
+      "object": "I_motor006",
+      "label": "V5 lift motor \u00b7 inferred mounting",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        -78.0,
+        172.8
+      ],
+      "correctedPositionMm": [
+        -143.0,
+        -27.200000000000003,
+        172.8
+      ],
+      "reason": "Lift transmission relocated rearward four mounting holes to clear upper-arm swept volume"
+    },
+    {
+      "object": "I_motor007",
+      "label": "V5 lift motor \u00b7 inferred mounting001",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        -78.0,
+        172.8
+      ],
+      "correctedPositionMm": [
+        143.0,
+        -27.200000000000003,
+        172.8
+      ],
+      "reason": "Lift transmission relocated rearward four mounting holes to clear upper-arm swept volume"
+    },
+    {
+      "object": "I_gear84",
+      "label": "Lift base reduction gear",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        -182.0,
+        -127.0,
+        133.35
+      ],
+      "correctedPositionMm": [
+        -182.0,
+        -76.2,
+        133.35
+      ],
+      "reason": "Lift transmission relocated rearward four mounting holes to clear upper-arm swept volume"
+    },
+    {
+      "object": "I_gear011",
+      "label": "Lift base reduction gear001",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        182.0,
+        -127.0,
+        133.35
+      ],
+      "correctedPositionMm": [
+        182.0,
+        -76.2,
+        133.35
+      ],
+      "reason": "Lift transmission relocated rearward four mounting holes to clear upper-arm swept volume"
+    },
+    {
+      "object": "I_pinion12",
+      "label": "Lift motor pinion",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        -182.0,
+        -78.0,
+        133.35
+      ],
+      "correctedPositionMm": [
+        -182.0,
+        -27.200000000000003,
+        133.35
+      ],
+      "reason": "Lift transmission relocated rearward four mounting holes to clear upper-arm swept volume"
+    },
+    {
+      "object": "I_pinion001",
+      "label": "Lift motor pinion001",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        182.0,
+        -78.0,
+        133.35
+      ],
+      "correctedPositionMm": [
+        182.0,
+        -27.200000000000003,
+        133.35
+      ],
+      "reason": "Lift transmission relocated rearward four mounting holes to clear upper-arm swept volume"
+    },
+    {
+      "object": "I_motor006",
+      "label": "V5 lift motor \u00b7 inferred mounting",
+      "translationMm": [
+        0,
+        63.5,
+        0
+      ],
+      "originalPositionMm": [
+        -143.0,
+        -27.200000000000003,
+        172.8
+      ],
+      "correctedPositionMm": [
+        -143.0,
+        36.3,
+        172.8
+      ],
+      "reason": "Complete lift transmission moved rearward five additional holes for lowered-arm clearance"
+    },
+    {
+      "object": "I_motor007",
+      "label": "V5 lift motor \u00b7 inferred mounting001",
+      "translationMm": [
+        0,
+        63.5,
+        0
+      ],
+      "originalPositionMm": [
+        143.0,
+        -27.200000000000003,
+        172.8
+      ],
+      "correctedPositionMm": [
+        143.0,
+        36.3,
+        172.8
+      ],
+      "reason": "Complete lift transmission moved rearward five additional holes for lowered-arm clearance"
+    },
+    {
+      "object": "I_gear84",
+      "label": "Lift base reduction gear",
+      "translationMm": [
+        0,
+        63.5,
+        0
+      ],
+      "originalPositionMm": [
+        -182.0,
+        -76.2,
+        133.35
+      ],
+      "correctedPositionMm": [
+        -182.0,
+        -12.700000000000003,
+        133.35
+      ],
+      "reason": "Complete lift transmission moved rearward five additional holes for lowered-arm clearance"
+    },
+    {
+      "object": "I_gear011",
+      "label": "Lift base reduction gear001",
+      "translationMm": [
+        0,
+        63.5,
+        0
+      ],
+      "originalPositionMm": [
+        182.0,
+        -76.2,
+        133.35
+      ],
+      "correctedPositionMm": [
+        182.0,
+        -12.700000000000003,
+        133.35
+      ],
+      "reason": "Complete lift transmission moved rearward five additional holes for lowered-arm clearance"
+    },
+    {
+      "object": "I_pinion12",
+      "label": "Lift motor pinion",
+      "translationMm": [
+        0,
+        63.5,
+        0
+      ],
+      "originalPositionMm": [
+        -182.0,
+        -27.200000000000003,
+        133.35
+      ],
+      "correctedPositionMm": [
+        -182.0,
+        36.3,
+        133.35
+      ],
+      "reason": "Complete lift transmission moved rearward five additional holes for lowered-arm clearance"
+    },
+    {
+      "object": "I_pinion001",
+      "label": "Lift motor pinion001",
+      "translationMm": [
+        0,
+        63.5,
+        0
+      ],
+      "originalPositionMm": [
+        182.0,
+        -27.200000000000003,
+        133.35
+      ],
+      "correctedPositionMm": [
+        182.0,
+        36.3,
+        133.35
+      ],
+      "reason": "Complete lift transmission moved rearward five additional holes for lowered-arm clearance"
+    },
+    {
+      "object": "SimulationLiftTransmissionPlateL",
+      "reason": "New 3.2 mm side plate supports the complete rearward lift motor, pinion and reduction-gear assembly",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationLiftTransmissionPlateR",
+      "reason": "New 3.2 mm side plate supports the complete rearward lift motor, pinion and reduction-gear assembly",
+      "hardwareValidated": false
+    },
+    {
+      "object": "LeftJaw",
+      "label": "Left swinging jaw",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -31.75,
+        -25.4,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -31.75,
+        -50.8,
+        0.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "RightJaw",
+      "label": "Right swinging jaw",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        31.75,
+        -25.4,
+        0.0
+      ],
+      "correctedPositionMm": [
+        31.75,
+        -50.8,
+        0.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "LeftClawGear",
+      "label": "Inner coupling gear \u00b7 counter-rotation",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -31.75,
+        -25.4,
+        42.0
+      ],
+      "correctedPositionMm": [
+        -31.75,
+        -50.8,
+        42.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "RightClawGear",
+      "label": "Inner coupling gear \u00b7 counter-rotation001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        31.75,
+        -25.4,
+        42.0
+      ],
+      "correctedPositionMm": [
+        31.75,
+        -50.8,
+        42.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail035",
+      "label": "Claw vertical hinge shaft",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -31.75,
+        -25.4,
+        -20.0
+      ],
+      "correctedPositionMm": [
+        -31.75,
+        -50.8,
+        -20.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail042",
+      "label": "Claw vertical hinge shaft001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        31.75,
+        -25.4,
+        -20.0
+      ],
+      "correctedPositionMm": [
+        31.75,
+        -50.8,
+        -20.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail036",
+      "label": "Ratcheting pawl \u00b7 inferred tooth engagement",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        -25.4,
+        0.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail043",
+      "label": "Ratcheting pawl \u00b7 inferred tooth engagement001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        -25.4,
+        0.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_screw110",
+      "label": "Pawl pivot screw",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -67.75,
+        -17.4,
+        52.0
+      ],
+      "correctedPositionMm": [
+        -67.75,
+        -42.8,
+        52.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_screw115",
+      "label": "Pawl pivot screw001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        67.75,
+        -17.4,
+        52.0
+      ],
+      "correctedPositionMm": [
+        67.75,
+        -42.8,
+        52.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_cylinder25",
+      "label": "Pneumatic jaw-release cylinder",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -105.0,
+        -21.200000000000003,
+        67.4
+      ],
+      "correctedPositionMm": [
+        -105.0,
+        -46.6,
+        67.4
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_cylinder001",
+      "label": "Pneumatic jaw-release cylinder001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        105.0,
+        -21.200000000000003,
+        67.4
+      ],
+      "correctedPositionMm": [
+        105.0,
+        -46.6,
+        67.4
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_elbow",
+      "label": "Claw cylinder elbow",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -105.0,
+        86.8,
+        67.4
+      ],
+      "correctedPositionMm": [
+        -105.0,
+        61.4,
+        67.4
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_elbow001",
+      "label": "Claw cylinder elbow001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        105.0,
+        86.8,
+        67.4
+      ],
+      "correctedPositionMm": [
+        105.0,
+        61.4,
+        67.4
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail040",
+      "label": "Claw rear standoff",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        -25.4,
+        0.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail047",
+      "label": "Claw rear standoff001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        0.0,
+        -25.4,
+        0.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "I_channel2_11",
+      "label": "Pneumatic release bridge",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        -63.5,
+        17.0,
+        74.0
+      ],
+      "correctedPositionMm": [
+        -63.5,
+        -8.399999999999999,
+        74.0
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail073",
+      "label": "Claw cylinder tubing",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        0.0,
+        50.8,
+        25.4
+      ],
+      "correctedPositionMm": [
+        0.0,
+        25.4,
+        25.4
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "Detail074",
+      "label": "Claw cylinder tubing001",
+      "translationMm": [
+        0,
+        -25.4,
+        0
+      ],
+      "originalPositionMm": [
+        0.0,
+        50.8,
+        25.4
+      ],
+      "correctedPositionMm": [
+        0.0,
+        25.4,
+        25.4
+      ],
+      "reason": "Complete jaw pivot and release module advanced two holes while preserving gear, shaft and pawl alignment"
+    },
+    {
+      "object": "SimulationJawPivotTabLowerL",
+      "reason": "New 3.2 mm bridge tab supports the advanced jaw pivot shaft from the existing carriage",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationJawPivotTabUpperL",
+      "reason": "New 3.2 mm bridge tab supports the advanced jaw pivot shaft from the existing carriage",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationJawPivotTabLowerR",
+      "reason": "New 3.2 mm bridge tab supports the advanced jaw pivot shaft from the existing carriage",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationJawPivotTabUpperR",
+      "reason": "New 3.2 mm bridge tab supports the advanced jaw pivot shaft from the existing carriage",
+      "hardwareValidated": false
+    },
+    {
+      "object": "I_channel2_19",
+      "label": "Claw cross frame",
+      "translationMm": [
+        0,
+        0,
+        50.8
+      ],
+      "originalPositionMm": [
+        -114.3,
+        0.0,
+        -50.8
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        0.0,
+        0.0
+      ],
+      "reason": "Lower claw cross frame raised four additional holes to clear the expanded jaw sweep"
+    },
+    {
+      "object": "I_motor11",
+      "label": "V5 drivetrain motor \u00b7 inferred placement",
+      "translationMm": [
+        50.8,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        -140.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        -89.2,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "Front drivetrain motor moved inward along its output axis for lowered-jaw clearance"
+    },
+    {
+      "object": "I_motor003",
+      "label": "V5 drivetrain motor \u00b7 inferred placement003",
+      "translationMm": [
+        -50.8,
+        0,
+        0
+      ],
+      "originalPositionMm": [
+        140.0,
+        -113.89999999999999,
+        41.65
+      ],
+      "correctedPositionMm": [
+        89.2,
+        -113.89999999999999,
+        41.65
+      ],
+      "reason": "Front drivetrain motor moved inward along its output axis for lowered-jaw clearance"
+    },
+    {
+      "object": "SimulationFrontMotorJackshaftL",
+      "reason": "Estimated 4.18 mm square jackshaft routes the inset motor drive ahead of the lowered claw sweep",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontChainInnerL",
+      "reason": "Forward chain stage connects the inset motor or retained outer gear plane to the jackshaft",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontChainOuterL",
+      "reason": "Forward chain stage connects the inset motor or retained outer gear plane to the jackshaft",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontJackshaftMount0L",
+      "reason": "Paired outboard 3.2 mm bearing plates support the forward drivetrain jackshaft outside the claw sweep",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontJackshaftMount1L",
+      "reason": "Paired outboard 3.2 mm bearing plates support the forward drivetrain jackshaft outside the claw sweep",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontJackshaftRailL",
+      "reason": "Outboard side rail ties the forward jackshaft bearing pair back to the chassis above the front wheel envelope",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontMotorMountL",
+      "reason": "New 3.2 mm inner plate mounts the inset front drivetrain motor to the chassis",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontMotorJackshaftR",
+      "reason": "Estimated 4.18 mm square jackshaft routes the inset motor drive ahead of the lowered claw sweep",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontChainInnerR",
+      "reason": "Forward chain stage connects the inset motor or retained outer gear plane to the jackshaft",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontChainOuterR",
+      "reason": "Forward chain stage connects the inset motor or retained outer gear plane to the jackshaft",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontJackshaftMount0R",
+      "reason": "Paired outboard 3.2 mm bearing plates support the forward drivetrain jackshaft outside the claw sweep",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontJackshaftMount1R",
+      "reason": "Paired outboard 3.2 mm bearing plates support the forward drivetrain jackshaft outside the claw sweep",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontJackshaftRailR",
+      "reason": "Outboard side rail ties the forward jackshaft bearing pair back to the chassis above the front wheel envelope",
+      "hardwareValidated": false
+    },
+    {
+      "object": "SimulationFrontMotorMountR",
+      "reason": "New 3.2 mm inner plate mounts the inset front drivetrain motor to the chassis",
+      "hardwareValidated": false
+    },
+    {
+      "object": "I_channel3_23",
+      "label": "Tower upper tie",
+      "translationMm": [
+        0,
+        50.8,
+        0
+      ],
+      "originalPositionMm": [
+        -139.7,
+        -76.2,
+        114.30000000000001
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        -25.400000000000006,
+        114.30000000000001
+      ],
+      "reason": "Lower tower tie moved rearward four additional holes; extended side plates retain its support"
+    },
+    {
+      "object": "I_channel2_19",
+      "label": "Claw cross frame",
+      "translationMm": [
+        0,
+        -25.4,
+        12.7
+      ],
+      "originalPositionMm": [
+        -114.3,
+        0.0,
+        0.0
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        -25.4,
+        12.7
+      ],
+      "reason": "Raised claw cross frame moved one hole forward and up to clear exact upper-arm solids"
+    },
+    {
+      "object": "I_channel3_004",
+      "label": "Lift ladder crossmember",
+      "translationMm": [
+        0,
+        101.6,
+        -25.4
+      ],
+      "originalPositionMm": [
+        -139.7,
+        228.6,
+        -12.7
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        330.2,
+        -38.099999999999994
+      ],
+      "reason": "Forward lower-arm tie pack moved to rear hole row and lowered two holes clear of the lift transmission"
+    },
+    {
+      "object": "I_screw068",
+      "label": "Screw068",
+      "translationMm": [
+        0,
+        101.6,
+        -25.4
+      ],
+      "originalPositionMm": [
+        -114.3,
+        228.6,
+        -14.800000000000022
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        330.2,
+        -40.20000000000002
+      ],
+      "reason": "Forward lower-arm tie pack moved to rear hole row and lowered two holes clear of the lift transmission"
+    },
+    {
+      "object": "I_screw069",
+      "label": "Screw069",
+      "translationMm": [
+        0,
+        101.6,
+        -25.4
+      ],
+      "originalPositionMm": [
+        114.3,
+        228.6,
+        -14.800000000000022
+      ],
+      "correctedPositionMm": [
+        114.3,
+        330.2,
+        -40.20000000000002
+      ],
+      "reason": "Forward lower-arm tie pack moved to rear hole row and lowered two holes clear of the lift transmission"
+    },
+    {
+      "object": "I_channel3_005",
+      "label": "Lift ladder crossmember001",
+      "translationMm": [
+        0,
+        50.8,
+        -50.8
+      ],
+      "originalPositionMm": [
+        -139.7,
+        279.3999999999999,
+        -12.7
+      ],
+      "correctedPositionMm": [
+        -139.7,
+        330.19999999999993,
+        -63.5
+      ],
+      "reason": "Rear lower-arm tie pack moved to the same rear row and stacked two holes below its mate"
+    },
+    {
+      "object": "I_screw070",
+      "label": "Screw070",
+      "translationMm": [
+        0,
+        50.8,
+        -50.8
+      ],
+      "originalPositionMm": [
+        -114.3,
+        279.3999999999999,
+        -14.800000000000022
+      ],
+      "correctedPositionMm": [
+        -114.3,
+        330.19999999999993,
+        -65.60000000000002
+      ],
+      "reason": "Rear lower-arm tie pack moved to the same rear row and stacked two holes below its mate"
+    },
+    {
+      "object": "I_screw071",
+      "label": "Screw071",
+      "translationMm": [
+        0,
+        50.8,
+        -50.8
+      ],
+      "originalPositionMm": [
+        114.3,
+        279.3999999999999,
+        -14.800000000000022
+      ],
+      "correctedPositionMm": [
+        114.3,
+        330.19999999999993,
+        -65.60000000000002
+      ],
+      "reason": "Rear lower-arm tie pack moved to the same rear row and stacked two holes below its mate"
+    }
+  ]
+}

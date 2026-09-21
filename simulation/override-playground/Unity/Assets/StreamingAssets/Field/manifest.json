@@ -1,0 +1,100 @@
+{
+  "meshes": [
+    {
+      "file": "field0.meshbin",
+      "body": "world",
+      "rgba": [
+        0.32,
+        0.36,
+        0.39,
+        1.0
+      ],
+      "vertices": 8,
+      "triangles": 12
+    },
+    {
+      "file": "field1.meshbin",
+      "body": "world",
+      "rgba": [
+        0.12,
+        0.16,
+        0.2,
+        1.0
+      ],
+      "vertices": 32,
+      "triangles": 48
+    },
+    {
+      "file": "field2.meshbin",
+      "body": "practiceGoal0",
+      "rgba": [
+        0.1,
+        0.14,
+        0.18,
+        1.0
+      ],
+      "vertices": 98,
+      "triangles": 192
+    },
+    {
+      "file": "field3.meshbin",
+      "body": "practiceGoal0",
+      "rgba": [
+        0.8,
+        0.82,
+        0.84,
+        1.0
+      ],
+      "vertices": 98,
+      "triangles": 192
+    },
+    {
+      "file": "field4.meshbin",
+      "body": "practiceGoal1",
+      "rgba": [
+        0.1,
+        0.14,
+        0.18,
+        1.0
+      ],
+      "vertices": 98,
+      "triangles": 192
+    },
+    {
+      "file": "field5.meshbin",
+      "body": "practiceGoal1",
+      "rgba": [
+        0.8,
+        0.82,
+        0.84,
+        1.0
+      ],
+      "vertices": 98,
+      "triangles": 192
+    },
+    {
+      "file": "field6.meshbin",
+      "body": "practiceGoal2",
+      "rgba": [
+        0.1,
+        0.14,
+        0.18,
+        1.0
+      ],
+      "vertices": 98,
+      "triangles": 192
+    },
+    {
+      "file": "field7.meshbin",
+      "body": "practiceGoal2",
+      "rgba": [
+        0.8,
+        0.82,
+        0.84,
+        1.0
+      ],
+      "vertices": 98,
+      "triangles": 192
+    }
+  ]
+}
