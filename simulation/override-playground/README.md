@@ -36,7 +36,7 @@ For the first pickup, reset the Claw pickup layout. Its first pin is centered in
 
 ## Verified and limited
 
-The application has been launched and visually inspected after fixing an underground camera. See `Evidence/` for native and graphics tests and `Research/REUSE_AUDIT.md` for the existing-solution evaluation. Pin pickup/5-second retention/release passed at center and ±10 mm offsets under the provisional parameters. The centered cup pickup test failed retention; cup grasping is not verified. Lift sag remains approximately 0.10 rad under the modeled load.
+The application has been launched and visually inspected after fixing an underground camera. Local validation records in `Evidence/` are intentionally excluded from GitHub; `Research/REUSE_AUDIT.md` documents the existing-solution evaluation. Pin pickup/5-second retention/release passed at center and ±10 mm offsets under the provisional parameters. The centered cup pickup test failed retention; cup grasping is not verified. Lift sag remains approximately 0.10 rad under the modeled load.
 
 Masses, friction, cartridge selection, actuator assignments, and cup wall thickness await measurements. Drive uses a finite linear torque-speed/braking approximation adapted from ftcsim and scaled consistently with V5 cartridge gearing; it is not V5 firmware emulation. The jaw and roller controls are independent approximations; ratchet/pneumatic coupling is not modeled. Some self-collisions are disabled. No real-world performance, legal motor allocation, scoring accuracy, or complete field fidelity is claimed.
 
