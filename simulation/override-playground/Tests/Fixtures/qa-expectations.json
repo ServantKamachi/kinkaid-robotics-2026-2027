@@ -1,0 +1,330 @@
+{
+  "status": "Independent expected rules cases; implementation and integration tests pending",
+  "cases": [
+    {
+      "id": "partial-opaque-cover",
+      "qa": 3175,
+      "input": {
+        "pinPlaced": true,
+        "halfPartiallyInsideOpaqueCup": true
+      },
+      "expected": {
+        "halfVisibleForScoring": false
+      }
+    },
+    {
+      "id": "transparent-cover",
+      "rule": "SC3",
+      "input": {
+        "pinPlaced": true,
+        "halfInsideTransparentCup": true,
+        "halfInsideOpaqueCup": false
+      },
+      "expected": {
+        "halfVisibleForScoring": true
+      }
+    },
+    {
+      "id": "toggle-fixed-bracket-contact",
+      "qa": 3171,
+      "input": {
+        "seatedColor": "red",
+        "robotTouchesFixedMetalBracket": true,
+        "robotTouchesMovingAssembly": false
+      },
+      "expected": {
+        "toggleColor": "red"
+      }
+    },
+    {
+      "id": "toggle-moving-contact",
+      "rule": "SC4",
+      "input": {
+        "seatedColor": "red",
+        "robotTouchesMovingAssembly": true
+      },
+      "expected": {
+        "toggleColor": "yellow"
+      }
+    },
+    {
+      "id": "toggle-unseated",
+      "rule": "SC4",
+      "input": {
+        "nearestColor": "blue",
+        "fullySeated": false,
+        "robotTouchesMovingAssembly": false
+      },
+      "expected": {
+        "toggleColor": "yellow"
+      }
+    },
+    {
+      "id": "skills-final-seconds-midfield",
+      "qa": 3242,
+      "input": {
+        "mode": "driverSkills",
+        "secondsRemaining": 4,
+        "placingOnMidfieldGoal": true
+      },
+      "expected": {
+        "sg12EndgameRestrictionApplies": false
+      }
+    },
+    {
+      "id": "h2h-final-seconds-midfield",
+      "rule": "SG12",
+      "input": {
+        "mode": "headToHead",
+        "secondsRemaining": 4,
+        "placingOnMidfieldGoal": true
+      },
+      "expected": {
+        "sg12EndgameRestrictionApplies": true
+      }
+    },
+    {
+      "id": "load-remains-in-contact",
+      "qa": 3235,
+      "input": {
+        "placementOtherwiseLegal": true,
+        "loaderTouchesPieceAfterInsertion": true
+      },
+      "expected": {
+        "rejectForPostLoadContact": false
+      }
+    },
+    {
+      "id": "load-outside-loader-after-insertion",
+      "qa": 3235,
+      "input": {
+        "placementOtherwiseLegal": true,
+        "pieceOutsideLoaderAfterInsertion": true
+      },
+      "expected": {
+        "rejectForFinalLoaderContainment": false
+      }
+    },
+    {
+      "id": "skills-field-orientation",
+      "qa": 3236,
+      "input": {
+        "modeChange": [
+          "headToHead",
+          "driverSkills"
+        ]
+      },
+      "expected": {
+        "rotatePhysicalFieldOrGPSZero": false
+      }
+    },
+    {
+      "id": "skills-robot-contact",
+      "qa": 3199,
+      "input": {
+        "mode": "driverSkills",
+        "otherwiseScoredPin": true,
+        "robotTouchesPin": true
+      },
+      "expected": {
+        "rejectSolelyForRobotContact": false
+      }
+    },
+    {
+      "id": "load-directly-to-robot",
+      "qa": 3164,
+      "input": {
+        "releasedIntoLoader": true,
+        "fallsDirectlyIntoRobot": true,
+        "floorContact": false
+      },
+      "expected": {
+        "rejectForNoFloorContact": false
+      }
+    },
+    {
+      "id": "skills-red-loader",
+      "qa": 3196,
+      "input": {
+        "mode": "driverSkills",
+        "loaderAlliance": "red",
+        "secondsRemaining": 58
+      },
+      "expected": {
+        "matchLoadingAvailable": true
+      }
+    },
+    {
+      "id": "skills-blue-loader",
+      "qa": 3196,
+      "input": {
+        "mode": "driverSkills",
+        "loaderAlliance": "blue"
+      },
+      "expected": {
+        "matchLoadingAvailable": false
+      }
+    },
+    {
+      "id": "skills-red-half-in-blue-quadrant",
+      "rule": "RSC3.a.i",
+      "input": {
+        "mode": "driverSkills",
+        "halfColor": "red",
+        "region": "blueQuadrant",
+        "otherwiseScored": true
+      },
+      "expected": {
+        "points": 0
+      }
+    },
+    {
+      "id": "skills-blue-half-midfield",
+      "rule": "RSC3.a.ii",
+      "input": {
+        "mode": "driverSkills",
+        "halfColor": "blue",
+        "region": "midfield",
+        "otherwiseScored": true
+      },
+      "expected": {
+        "points": 5
+      }
+    },
+    {
+      "id": "skills-wrong-colored-toggle",
+      "rule": "RSC3.a.iii.1",
+      "input": {
+        "mode": "driverSkills",
+        "halfColor": "yellow",
+        "region": "redQuadrant",
+        "toggleColor": "blue",
+        "otherwiseScored": true
+      },
+      "expected": {
+        "points": 0
+      }
+    },
+    {
+      "id": "skills-correct-colored-toggle",
+      "rule": "RSC3.a.iii.1",
+      "input": {
+        "mode": "driverSkills",
+        "halfColor": "yellow",
+        "region": "redQuadrant",
+        "toggleColor": "red",
+        "otherwiseScored": true
+      },
+      "expected": {
+        "points": 10
+      }
+    },
+    {
+      "id": "skills-early-stop-no-grace",
+      "rule": "RSC5.e",
+      "input": {
+        "mode": "driverSkills",
+        "recordSkillsStopTime": true
+      },
+      "expected": {
+        "settlementGraceSeconds": 0
+      }
+    },
+    {
+      "id": "ordinary-end-settlement",
+      "rule": "SC1",
+      "input": {
+        "mode": "headToHead",
+        "timeExpired": true,
+        "allObjectsAtRest": false
+      },
+      "expected": {
+        "maximumSettlementGraceSeconds": 5
+      }
+    },
+    {
+      "id": "autonomous-midfield-yellow",
+      "qa": 3188,
+      "input": {
+        "phase": "autonomousEnd",
+        "midfieldRobots": {
+          "red": 1,
+          "blue": 0
+        },
+        "placedMidfieldYellowHalves": 2
+      },
+      "expected": {
+        "yellowOwner": null,
+        "yellowPoints": 0
+      }
+    },
+    {
+      "id": "autonomous-midfield-robot",
+      "qa": 3188,
+      "input": {
+        "phase": "autonomousEnd",
+        "midfieldRobots": {
+          "red": 1,
+          "blue": 0
+        }
+      },
+      "expected": {
+        "midfieldRobotPoints": 0
+      }
+    },
+    {
+      "id": "penalty-preserves-score",
+      "qa": 3232,
+      "input": {
+        "score": 50,
+        "sg10ComparisonValue": 10
+      },
+      "expected": {
+        "displayedScore": 50
+      }
+    },
+    {
+      "id": "deflected-back-piece",
+      "qa": 3170,
+      "input": {
+        "deflectedBackIntoField": true
+      },
+      "expected": {
+        "removeAsOutOfField": false
+      }
+    },
+    {
+      "id": "passive-concavity-not-possession",
+      "qa": 3190,
+      "input": {
+        "fullySupported": false,
+        "controlMaintainedAllDirections": false,
+        "concaveFace": true
+      },
+      "expected": {
+        "possession": false
+      }
+    },
+    {
+      "id": "quadrant-one-station",
+      "qa": 3180,
+      "input": {
+        "quadrantNumber": 1,
+        "alliance": "red"
+      },
+      "expected": {
+        "adjacentStation": "red"
+      }
+    },
+    {
+      "id": "load-zone-tape",
+      "qa": 3138,
+      "input": {
+        "zoneAlliance": "blue"
+      },
+      "expected": {
+        "tapeColor": "blue"
+      }
+    }
+  ]
+}

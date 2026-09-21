@@ -1,0 +1,146 @@
+{
+  "source": "Research/v2/override-2.0.pdf",
+  "version": "2.0",
+  "units": "millimeters",
+  "coordinates": "Native: origin at field center on tile top; +x audience right, +y toward audience, +z up. Appendix A plan coordinates convert as x=X-1783.2,y=1783.2-Y.",
+  "portablePerimeter": {
+    "insideSpan": 3566.4,
+    "wallWidth": 50.8,
+    "wallHeight": 293.0,
+    "sourcePage": "A13"
+  },
+  "metalPerimeterReference": {
+    "insideSpan": 3568.7,
+    "wallWidth": 32.4,
+    "wallHeight": 292.1,
+    "sourcePage": "A14",
+    "selected": false
+  },
+  "goal": {
+    "allianceHeight": 82.5,
+    "neutralHeight": 146.5,
+    "midfieldHeight": 222.7,
+    "baseAcrossFlats": 142.5,
+    "topAcrossFlats": 88.8,
+    "openingDiameter": 60.1,
+    "sourcePage": "A7",
+    "baseLipHeight": 10,
+    "baseCornerRadius": 81.9,
+    "tagReferenceHeight": 37.8
+  },
+  "goalCentersFromAudienceLowerLeft": [
+    [
+      587.1,
+      1185.1
+    ],
+    [
+      1185.1,
+      587.1
+    ],
+    [
+      2381.3,
+      587.1
+    ],
+    [
+      2979.3,
+      1185.1
+    ],
+    [
+      1783.2,
+      1783.2
+    ],
+    [
+      587.1,
+      2381.3
+    ],
+    [
+      1185.1,
+      2979.3
+    ],
+    [
+      2381.3,
+      2979.3
+    ],
+    [
+      2979.3,
+      2381.3
+    ]
+  ],
+  "goalCentersSourcePage": "A10",
+  "loader": {
+    "sourcePage": "A9",
+    "collapsedTop": 365.0,
+    "extendedTop": 583.5,
+    "bottomOpeningHeight": 82.5,
+    "topOpeningDiameter": 86.0,
+    "topDepth": 95.0,
+    "bottomWidth": 102.1,
+    "centerlineFromNearEndWall": 290.6,
+    "extendedBottomOpeningHeight": 301
+  },
+  "toggle": {
+    "sourcePage": "A8",
+    "length": 660.2,
+    "crossSectionHeight": 51.6,
+    "axisFromTriangleApex": 30.2,
+    "axisHeight": 335.3,
+    "slotTravel": null,
+    "slotTravelStatus": "Unresolved: measure source slot or official CAD before dynamic acceptance",
+    "sourceSlotFit": {
+      "travelMm": 12.219097690598774,
+      "radiusMm": 10.79071,
+      "maxFitResidualMm": 0.14309052,
+      "evidence": "Evidence/v2/toggle-slot-fit.json",
+      "status": "Mesh measurement only; not official nominal dimension. Includes tilted guide; shaft clearance/seating not certified."
+    }
+  },
+  "tape": {
+    "sourcePage": "A11",
+    "autonomousSpacing": 63.5,
+    "midfieldOuterSide": 864.8
+  },
+  "startingPieces": {
+    "sourcePage": "A12; FO-2; assembly pages 150-164",
+    "edgeCenter": 40.1,
+    "perimeterClusterSpacing": 80.4,
+    "innerGrid": [
+      587.1,
+      1185.1,
+      1783.2,
+      2381.3,
+      2979.3
+    ]
+  },
+  "fidelityStatus": "Nominal dimension transcription; contact/visual acceptance requires measured comparison. Real field assembly and manufacturing tolerances remain physical variations.",
+  "pin": {
+    "sourcePage": "A5",
+    "height": 165,
+    "maximumDiameter": 80.3,
+    "acrossFlats": 76.793,
+    "shoulderDiameter": 59.6,
+    "tipDiameter": 35.6,
+    "halfTaperHeight": 74.5,
+    "tipHeight": 16.187
+  },
+  "cup": {
+    "sourcePage": "A6",
+    "height": 164.5,
+    "endDiameter": 80.2,
+    "waistDiameter": 59,
+    "wallThickness": null,
+    "wallThicknessStatus": "Not dimensioned in official drawing; current contacts derive from licensed mesh"
+  },
+  "onlineDrawingReview": {
+    "date": "2026-09-20",
+    "drawings": [
+      "PinSpecs",
+      "CupSpecs",
+      "GoalSpecs",
+      "ToggleSpecs",
+      "LoaderSpecs"
+    ],
+    "baseURL": "https://content.vexrobotics.com/docs/2026-2027/override/online-manual/assets/image/",
+    "officialPDFSHA256": "f694684deae414b222f18c48bdceb28284fca4c0ad610947ad700db805209860",
+    "savedMirrorIdentical": true
+  }
+}

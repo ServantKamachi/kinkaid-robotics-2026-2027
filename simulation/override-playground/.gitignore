@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+Unity/Library/
+Unity/Temp/
+Unity/Logs/
+Unity/obj/
+Unity/UserSettings/
+Builds/
+work/
+Research/xRC/
+Research/Assets/
+Research/v2/
+Evidence/
+__pycache__/
+*.pyc
+
+CAD/*.FCBak

@@ -1,0 +1,1 @@
+GPL-3.0 geometry from JerryLum/vex-v5-scoring-practice-override commit 572085f57dcedb501d781db6c5485349beb887cf. Original material groups and geometry, normalized local transforms, shared mesh binary format.

@@ -1,0 +1,5 @@
+Geometry: JerryLum/vex-v5-scoring-practice-override
+Commit: 572085f57dcedb501d781db6c5485349beb887cf
+https://github.com/Jerrylum/vex-v5-scoring-practice-override
+License GPL-3.0; full text in COPYING.txt.
+Scene transforms applied; pin contacts are sliced convex hull approximations. Cup wall contacts remain provisional.

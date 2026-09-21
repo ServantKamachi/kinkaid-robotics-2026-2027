@@ -1,0 +1,1 @@
+Reused from https://github.com/Jerrylum/vex-v5-scoring-practice-override at 572085f57dcedb501d781db6c5485349beb887cf. GPL-3.0. Modified coordinate transforms, bounded-error simplification and mesh format.
