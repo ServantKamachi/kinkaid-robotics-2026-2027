@@ -1,7 +1,7 @@
 # ---------------------------------------------------------------------------- #
 #                                                                              #
 # 	Module:       main.py                                                      #
-# 	Author:       dannasun                                                     #
+# 	Author:       dannasun, lucas                                              #
 # 	Created:      9/10/2026, 8:41:21 PM                                        #
 # 	Description:  V5 project                                                   #
 #                                                                              #
