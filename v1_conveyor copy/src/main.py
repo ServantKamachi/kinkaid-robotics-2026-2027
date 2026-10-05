@@ -9,6 +9,7 @@
 
 # Library imports
 from vex import *
+import time
 
 brain = Brain()
 controller_1 = Controller(PRIMARY)
@@ -25,7 +26,9 @@ left_arm_motor = Motor(Ports.PORT10, GearSetting.RATIO_18_1, True)
 right_arm_motor = Motor(Ports.PORT20, GearSetting.RATIO_18_1, False)
 arm_group = MotorGroup(right_arm_motor, left_arm_motor)
 
-drivetrain = DriveTrain(left_dt, right_dt, externalGearRatio=5/3)
+gyro = Inertial(Ports.PORT11)
+
+drivetrain = SmartDrive(left_dt, right_dt, gyro, externalGearRatio=5/3)
 
 def autonomous():
     brain.screen.clear_screen()
@@ -67,10 +70,44 @@ def user_control():
             arm_group.stop(HOLD)
 
 
-
-
 # create competition instance
 comp = Competition(user_control, autonomous)
 
+def controller_stats_update():
+    while True:
+        #print temps
+        controller_1.screen.clear_screen()
+        controller_1.screen.set_cursor(1, 1)
+        controller_1.screen.print("L: " + str(left_front_dt.temperature()) + " " + str(left_back_dt.temperature()) + " " + "R: " + str(right_front_dt.temperature()) + " " + str(right_back_dt.temperature()))
+        
+        # #print rpms
+        # controller_1.screen.set_cursor(2, 1)
+        # controller_1.screen.print("I: " + str(int(intake.velocity())) + " " + "F: " + str(int(flywheel.velocity())) +" " + "C: " + str(int(conveyor.velocity())))
+        
+        # #drivetrain rpms
+        # controller_1.screen.set_cursor(3, 1)
+        # controller_1.screen.print("L: " + str(int(leftDtOne.velocity())) + " " + str(int(leftDtTwo.velocity())) + " " + "R: " + str(int(right_dt_one.velocity())) + " " + str(int(right_dt_two.velocity())))
+        # wait(500)
+
 # actions to do when the program starts
 brain.screen.clear_screen()
+
+def main():
+    """
+    sets up and updates the UI
+    """
+    brain.screen.clear_screen()
+
+    # set the text color 
+    brain.screen.set_pen_color(Color.WHITE)
+
+    # top right of the screen (where rows and columns are 1-index, NOT zero-indexed!)
+    brain.screen.set_cursor(1, 1)
+    brain.screen.print("andy needs to read documentation") # print it once for lucas to see 
+
+    # timer for stuff on the UI
+    timer = Timer()   
+
+    controller_stats_update()
+
+main()
