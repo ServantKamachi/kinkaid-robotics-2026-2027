@@ -22,8 +22,8 @@ right_front_dt = Motor(Ports.PORT20, GearSetting.RATIO_18_1, False)
 right_back_dt = Motor(Ports.PORT19, GearSetting.RATIO_18_1, False)
 right_dt = MotorGroup(right_front_dt,right_back_dt)
 
-left_arm_motor = Motor(Ports.PORT10, GearSetting.RATIO_18_1, True)
-right_arm_motor = Motor(Ports.PORT20, GearSetting.RATIO_18_1, False)
+left_arm_motor = Motor(Ports.PORT1, GearSetting.RATIO_18_1, True)
+right_arm_motor = Motor(Ports.PORT2, GearSetting.RATIO_18_1, False)
 arm_group = MotorGroup(right_arm_motor, left_arm_motor)
 
 left_claw_motor = Motor(Ports.PORT3, GearSetting.RATIO_18_1, True)
