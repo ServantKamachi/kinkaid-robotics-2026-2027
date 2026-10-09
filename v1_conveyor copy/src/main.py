@@ -34,10 +34,131 @@ gyro = Inertial(Ports.PORT11)
 
 drivetrain = SmartDrive(left_dt, right_dt, gyro, externalGearRatio=5/3)
 
+def PID_drive(distance_mm, heading, velocity, kP, kI, kD):
+    global start_integral, start_derivative
+    
+    #constants, currently broad placeholders
+
+    wheel_diameter = 800 #in mm
+    gear_ratio = 5/3
+
+    #calculations
+    mm_per_degree = (3.14159 * wheel_diameter) / (360 * gear_ratio)
+
+    distance_degrees = distance_mm / mm_per_degree
+
+    threshold = 0.25
+    threshold *= mm_per_degree
+
+    target_mm = distance_mm
+    current_mm = 0
+
+
+
+    left_dt.set_position(0, DEGREES)
+    right_dt.set_position(0, DEGREES)
+
+    integral = start_integral
+    derivative = start_derivative
+    previousError = 0
+
+    if velocity >= 0:
+
+        target_with_threshold = target_mm - threshold
+
+        while current_mm < target_with_threshold:
+            left_pos_degrees = left_dt.position(DEGREES)
+            right_pos_degrees = right_dt.position(DEGREES)
+
+            avg_pos_degrees = (left_pos_degrees + right_pos_degrees) / 2.0
+            current_mm = avg_pos_degrees * mm_per_degree
+
+            error = heading - gyro.rotation()
+
+            integral += error
+            integral = max(min(integral, 50), -50)
+
+            derivative = error - previousError
+            derivative = max(min(derivative, 50), -50)
+
+            output = (kP * error) + (kI * integral) + (kD * derivative)
+
+            distance_remaining = target_mm - current_mm
+            if distance_remaining < 50:
+                slowdown_factor = distance_remaining / 50.0
+                adjusted_velocity = velocity * min(1.0, slowdown_factor)
+                left_vel = (adjusted_velocity + output)
+                right_vel = (adjusted_velocity - output)
+            else:
+                left_vel = (velocity + output)
+                right_vel = (velocity - output)
+
+            left_dt.set_velocity(left_vel, units=PERCENT)
+            right_dt.set_velocity(right_vel, units=PERCENT)
+            left_dt.spin(FORWARD)
+            right_dt.spin(FORWARD)
+
+            previousError = error
+            wait(20, MSEC)
+
+
+    else:
+
+        target_with_threshold = target_mm + threshold  # Negative target
+        
+        while current_mm > target_with_threshold:
+            # Calculate current position in mm
+            left_pos_degrees = left_dt.position(DEGREES)
+            right_pos_degrees = right_dt.position(DEGREES)
+            
+            avg_pos_degrees = (left_pos_degrees + right_pos_degrees) / 2.0
+            current_mm = avg_pos_degrees * mm_per_degree
+            
+            # set error
+            error = heading - gyro.rotation()
+
+            # update integral
+            integral += error
+            integral = max(min(integral, 50), -50)
+
+            # update derivative
+            derivative = error - previousError
+            derivative = max(min(derivative, 50), -50)
+
+            #set velocities
+            output = (kP * error) + (kI * integral) + (kD * derivative)
+            
+            # Slow down as we approach target
+            distance_remaining = abs(target_mm - current_mm)
+            if distance_remaining < 50:
+                slowdown_factor = distance_remaining / 50.0
+                adjusted_velocity = velocity * min(1.0, slowdown_factor)
+                left_vel = (adjusted_velocity + output)
+                right_vel = (adjusted_velocity - output)
+            else:
+                left_vel = (velocity + output)
+                right_vel = (velocity - output)
+
+            left_dt.set_velocity(left_vel, units=PERCENT)
+            right_dt.set_velocity(right_vel, units=PERCENT)
+            left_dt.spin(FORWARD)
+            right_dt.spin(FORWARD)
+
+            previousError = error
+            wait(20, MSEC)
+    left_dt.stop()
+    right_dt.stop()
+
+
 def autonomous():
     brain.screen.clear_screen()
     brain.screen.print("autonomous code")
     # place automonous code here
+    gyro.calibrate()
+    PID_drive(660, 0, 75, 0.2, 0.01, 0.01) #660 mm, at 0°, velocity 75%
+    drivetrain.turn_to_rotation(45)
+    arm_group.spin_for(REVERSE, 1, SECONDS)
+    claw_group.spin_for(REVERSE, 1, SECONDS)
 
 def user_control():
     brain.screen.clear_screen()
