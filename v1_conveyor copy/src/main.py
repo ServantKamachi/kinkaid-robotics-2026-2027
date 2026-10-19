@@ -30,6 +30,9 @@ left_claw_motor = Motor(Ports.PORT3, GearSetting.RATIO_18_1, True)
 right_claw_motor = Motor(Ports.PORT4, GearSetting.RATIO_18_1, False)
 claw_group = MotorGroup(left_claw_motor, right_claw_motor)
 
+start_integral = 0
+start_derivative = 0
+
 gyro = Inertial(Ports.PORT11)
 
 drivetrain = SmartDrive(left_dt, right_dt, gyro, externalGearRatio=5/3)
