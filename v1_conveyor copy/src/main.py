@@ -158,10 +158,24 @@ def autonomous():
     brain.screen.print("autonomous code")
     # place automonous code here
     gyro.calibrate()
-    PID_drive(660, 0, 75, 0.2, 0.01, 0.01) #660 mm, at 0°, velocity 75%
-    drivetrain.turn_to_rotation(45)
-    arm_group.spin_for(REVERSE, 1, SECONDS)
-    claw_group.spin_for(REVERSE, 1, SECONDS)
+    autonomous == "R"
+    if autonomous == "R":
+        PID_drive(660, 0, 75, 0.2, 0.01, 0.01) #660 mm, at 0°, velocity 75%
+        drivetrain.turn_to_rotation(45)
+        arm_group.spin_for(REVERSE, 1, SECONDS)
+        claw_group.spin_for(REVERSE, 1, SECONDS)
+
+    if autonomous == "L":
+        PID_drive(660, 0, 75, 0.2, 0.01, 0.01)
+        drivetrain.turn_to_rotation(-45)
+        arm_group.spin_for(REVERSE, 1, SECONDS)
+        claw_group.spin_for(REVERSE, 1, SECONDS)
+    
+    if autonomous == "skills":
+        PID_drive(660, 0, 75, 0.2, 0.01, 0.01)
+        drivetrain.turn_to_rotation(-45)
+        arm_group.spin_for(REVERSE, 1, SECONDS)
+        claw_group.spin_for(REVERSE, 1, SECONDS)
 
 def user_control():
     brain.screen.clear_screen()
