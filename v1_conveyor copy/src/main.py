@@ -26,8 +26,8 @@ left_arm_motor = Motor(Ports.PORT1, GearSetting.RATIO_18_1, True)
 right_arm_motor = Motor(Ports.PORT2, GearSetting.RATIO_18_1, False)
 arm_group = MotorGroup(right_arm_motor, left_arm_motor)
 
-left_claw_motor = Motor(Ports.PORT3, GearSetting.RATIO_18_1, True)
-right_claw_motor = Motor(Ports.PORT4, GearSetting.RATIO_18_1, False)
+left_claw_motor = Motor(Ports.PORT3, GearSetting.RATIO_18_1, False)
+right_claw_motor = Motor(Ports.PORT4, GearSetting.RATIO_18_1, True)
 claw_group = MotorGroup(left_claw_motor, right_claw_motor)
 
 start_integral = 0
@@ -206,14 +206,14 @@ def user_control():
 
         arm_group.set_velocity(100, PERCENT)
         claw_group.set_velocity(100, PERCENT)
-        if controller_1.buttonR1.pressing():
+        if controller_1.buttonR1.pressing(): #lowers arm
             arm_group.spin(FORWARD)
         elif controller_1.buttonR2.pressing():
             arm_group.spin(REVERSE)
         else:
             arm_group.stop(HOLD)
 
-        if controller_1.buttonL1.pressing():
+        if controller_1.buttonL1.pressing(): #opens claw
             claw_group.spin(FORWARD)
         elif controller_1.buttonL2.pressing():
             claw_group.spin(REVERSE)
