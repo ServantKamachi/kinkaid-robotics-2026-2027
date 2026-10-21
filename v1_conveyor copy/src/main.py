@@ -185,8 +185,8 @@ def user_control():
         forward_motion = controller_1.axis3.position()
         turn_motion = controller_1.axis1.position()
         if abs(forward_motion) >= 5 or abs(turn_motion) >= 5:
-            left_velocity = forward_motion - turn_motion
-            right_velocity = forward_motion + turn_motion
+            left_velocity = forward_motion + turn_motion
+            right_velocity = forward_motion - turn_motion
 
             if left_velocity > 0:
                 left_dt.set_velocity(left_velocity, PERCENT)
