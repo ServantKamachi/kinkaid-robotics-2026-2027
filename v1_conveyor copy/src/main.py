@@ -204,6 +204,8 @@ def user_control():
         else:
             drivetrain.stop()
 
+        arm_group.set_velocity(100, PERCENT)
+        claw_group.set_velocity(100, PERCENT)
         if controller_1.buttonR1.pressing():
             arm_group.spin(FORWARD)
         elif controller_1.buttonR2.pressing():
@@ -216,7 +218,7 @@ def user_control():
         elif controller_1.buttonL2.pressing():
             claw_group.spin(REVERSE)
         else:
-            claw_group.stop(BRAKE)
+            claw_group.stop(HOLD)
 
 
 # create competition instance
