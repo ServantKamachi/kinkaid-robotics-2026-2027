@@ -166,20 +166,22 @@ def autonomous():
     if autonomous == "R":
         PID_drive(660, 0, 75, 0.2, 0.01, 0.01) #660 mm, at 0°, velocity 75%
         drivetrain.turn_to_rotation(45)
-        arm_group.spin_for(REVERSE, 1, SECONDS)
-        claw_group.spin_for(REVERSE, 1, SECONDS)
+        arm_group.spin_for(FORWARD, 1, SECONDS)
+        claw_group.spin_for(FORWARD, 1, SECONDS)
 
     if autonomous == "L":
         PID_drive(660, 0, 75, 0.2, 0.01, 0.01)
         drivetrain.turn_to_rotation(-45)
-        arm_group.spin_for(REVERSE, 1, SECONDS)
-        claw_group.spin_for(REVERSE, 1, SECONDS)
+        arm_group.spin_for(FORWARD, 1, SECONDS)
+        claw_group.spin_for(FORWARD, 1, SECONDS)
     
     if autonomous == "skills":
         PID_drive(660, 0, 75, 0.2, 0.01, 0.01)
         drivetrain.turn_to_rotation(-45)
-        arm_group.spin_for(REVERSE, 1, SECONDS)
-        claw_group.spin_for(REVERSE, 1, SECONDS)
+        arm_group.spin_for(FORWARD, 1, SECONDS)
+        claw_group.spin_for(FORWARD, 1, SECONDS)
+        drivetrain.turn_to_rotation(0)
+        PID_drive(-660, 0, -75, 0.2, 0.01, 0.01) #should go backwards
 
 def user_control():
     brain.screen.clear_screen()
@@ -220,7 +222,7 @@ def user_control():
         elif controller_1.buttonL2.pressing():
             claw_group.spin(REVERSE)
         else:
-            claw_group.stop(HOLD)
+            claw_group.stop(BRAKE)
 
 
 # create competition instance
