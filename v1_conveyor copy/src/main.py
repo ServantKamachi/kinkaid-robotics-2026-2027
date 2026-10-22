@@ -37,6 +37,10 @@ gyro = Inertial(Ports.PORT11)
 
 drivetrain = SmartDrive(left_dt, right_dt, gyro, externalGearRatio=5/3)
 
+arm_group.set_max_torque(100, PERCENT)
+arm_group.set_velocity(100, PERCENT)
+claw_group.set_velocity(100, PERCENT)
+
 def PID_drive(distance_mm, heading, velocity, kP, kI, kD):
     global start_integral, start_derivative
     
@@ -158,7 +162,7 @@ def autonomous():
     brain.screen.print("autonomous code")
     # place automonous code here
     gyro.calibrate()
-    autonomous == "R"
+    autonomous = "R"
     if autonomous == "R":
         PID_drive(660, 0, 75, 0.2, 0.01, 0.01) #660 mm, at 0°, velocity 75%
         drivetrain.turn_to_rotation(45)
@@ -204,8 +208,6 @@ def user_control():
         else:
             drivetrain.stop()
 
-        arm_group.set_velocity(100, PERCENT)
-        claw_group.set_velocity(100, PERCENT)
         if controller_1.buttonR1.pressing(): #lowers arm
             arm_group.spin(FORWARD)
         elif controller_1.buttonR2.pressing():
@@ -238,7 +240,7 @@ def controller_stats_update():
         # #drivetrain rpms
         # controller_1.screen.set_cursor(3, 1)
         # controller_1.screen.print("L: " + str(int(leftDtOne.velocity())) + " " + str(int(leftDtTwo.velocity())) + " " + "R: " + str(int(right_dt_one.velocity())) + " " + str(int(right_dt_two.velocity())))
-        # wait(500)
+        wait(500)
 
 # actions to do when the program starts
 brain.screen.clear_screen()
