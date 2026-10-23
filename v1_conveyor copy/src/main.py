@@ -182,6 +182,7 @@ def autonomous():
         arm_group.spin_for(FORWARD, 0.5, SECONDS)
     
     if autonomous == "skills":
+        #score preload
         PID_drive(1800, 0, 15, 0.2, 0.01, 0.01) 
         drivetrain.turn_to_heading(-45)
         PID_drive(1000, -45, 15, 0.2, 0.01, 0.01)
@@ -189,11 +190,29 @@ def autonomous():
         claw_group.spin_for(FORWARD, 1, SECONDS)
         wait(0.5, SECONDS)
         arm_group.spin_for(FORWARD, 1, SECONDS)
+        #drive back to get pin
         PID_drive(-1000, -45, -15, 0.2, 0.01, 0.01)
         drivetrain.turn_to_heading(0)
         PID_drive(-1800, 0, -15, 0.2, 0.01, 0.01) 
+        #get pin
         drivetrain.turn_to_heading(90)
         claw_group.spin_for(REVERSE, 1, SECONDS)
+        arm_group.spin_for(FORWARD, 0.5, SECONDS)
+        #drive to goal
+        drivetrain.turn_to_heading(0)
+        PID_drive(2500, 0, 15, 0.2, 0.01, 0.01) 
+        drivetrain.turn_to_heading(-90)
+        PID_drive(1500, -90, 15, 0.2, 0.01, 0.01)
+        drivetrain.turn_to_heading(0)
+        PID_drive(1000, 0, 15, 0.2, 0.01, 0.01)
+        drivetrain.turn_to_heading(-90)
+        arm_group.spin_for(FORWARD, 1.5, SECONDS)
+        PID_drive(2000, 0, 15, 0.2, 0.01, 0.01)
+        #score
+        arm_group.spin_for(REVERSE, 2, SECONDS)
+        claw_group.spin_for(FORWARD, 1, SECONDS)
+        arm_group.spin_for(FORWARD, 2, SECONDS)
+        PID_drive(-300, 0, 15, 0.2, 0.01, 0.01)
 
 def user_control():
     brain.screen.clear_screen()
