@@ -164,24 +164,36 @@ def autonomous():
     gyro.calibrate()
     autonomous = "R"
     if autonomous == "R":
-        PID_drive(660, 0, 75, 0.2, 0.01, 0.01) #660 mm, at 0°, velocity 75%
-        drivetrain.turn_to_rotation(45)
-        arm_group.spin_for(FORWARD, 1, SECONDS)
+        PID_drive(1800, 0, 15, 0.2, 0.01, 0.01)
+        drivetrain.turn_to_heading(45)
+        PID_drive(1000, 45, 15, 0.2, 0.01, 0.01)
+        arm_group.spin_for(REVERSE, 1, SECONDS)
         claw_group.spin_for(FORWARD, 1, SECONDS)
+        wait(0.5, SECONDS)
+        arm_group.spin_for(FORWARD, 0.5, SECONDS)
 
     if autonomous == "L":
-        PID_drive(660, 0, 75, 0.2, 0.01, 0.01)
-        drivetrain.turn_to_rotation(-45)
-        arm_group.spin_for(FORWARD, 1, SECONDS)
+        PID_drive(1800, 0, 15, 0.2, 0.01, 0.01) 
+        drivetrain.turn_to_heading(-45)
+        PID_drive(1000, -45, 15, 0.2, 0.01, 0.01)
+        arm_group.spin_for(REVERSE, 1, SECONDS)
         claw_group.spin_for(FORWARD, 1, SECONDS)
+        wait(0.5, SECONDS)
+        arm_group.spin_for(FORWARD, 0.5, SECONDS)
     
     if autonomous == "skills":
-        PID_drive(660, 0, 75, 0.2, 0.01, 0.01)
-        drivetrain.turn_to_rotation(-45)
-        arm_group.spin_for(FORWARD, 1, SECONDS)
+        PID_drive(1800, 0, 15, 0.2, 0.01, 0.01) 
+        drivetrain.turn_to_heading(-45)
+        PID_drive(1000, -45, 15, 0.2, 0.01, 0.01)
+        arm_group.spin_for(REVERSE, 1, SECONDS)
         claw_group.spin_for(FORWARD, 1, SECONDS)
-        drivetrain.turn_to_rotation(0)
-        PID_drive(-660, 0, -75, 0.2, 0.01, 0.01) #should go backwards
+        wait(0.5, SECONDS)
+        arm_group.spin_for(FORWARD, 1, SECONDS)
+        PID_drive(-1000, -45, -15, 0.2, 0.01, 0.01)
+        drivetrain.turn_to_heading(0)
+        PID_drive(-1800, 0, -15, 0.2, 0.01, 0.01) 
+        drivetrain.turn_to_heading(90)
+        claw_group.spin_for(REVERSE, 1, SECONDS)
 
 def user_control():
     brain.screen.clear_screen()
@@ -210,7 +222,7 @@ def user_control():
         else:
             drivetrain.stop()
 
-        if controller_1.buttonR1.pressing(): #lowers arm
+        if controller_1.buttonR1.pressing(): #raises arm
             arm_group.spin(FORWARD)
         elif controller_1.buttonR2.pressing():
             arm_group.spin(REVERSE)
