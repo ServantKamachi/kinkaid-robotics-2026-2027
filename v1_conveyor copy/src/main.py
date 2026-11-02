@@ -30,6 +30,10 @@ left_claw_motor = Motor(Ports.PORT3, GearSetting.RATIO_18_1, False)
 right_claw_motor = Motor(Ports.PORT4, GearSetting.RATIO_18_1, True)
 claw_group = MotorGroup(left_claw_motor, right_claw_motor)
 
+left_toggle_motor = Motor(Ports.PORT5, GearSetting.RATIO_18_1, True)
+right_toggle_motor = Motor(Ports.PORT6, GearSetting.RATIO_18_1, False)
+toggle_group = MotorGroup(left_toggle_motor, right_toggle_motor)
+
 start_integral = 0
 start_derivative = 0
 
@@ -254,6 +258,13 @@ def user_control():
             claw_group.spin(REVERSE)
         else:
             claw_group.stop(BRAKE)
+            
+        if controller_1.buttonB.pressing():
+            toggle_group.spin(FORWARD)
+        elif controller_1.buttonY.pressing():
+            toggle_group.spin(REVERSE)
+        else:
+            toggle_group.stop(COAST)
 
 
 # create competition instance
