@@ -211,16 +211,17 @@ def autonomous():
         arm_group.spin_for(REVERSE, 1, SECONDS)
         PID_drive(-1000, -90, -25, 0.2, 0.01, 0.01)
 
-        #add this if toggle works
-        # drivetrain.turn_to_heading(180)
-        # PID_drive(1000, 180, 40, 0.2, 0.01, 0.01)
-        # drivetrain.turn_to_heading(270)
-        # PID_drive(3000, 270, 40, 0.2, 0.01, 0.01)
-        # drivetrain.turn_to_heading(360)
-        # toggle_group.spin(FORWARD)
+        #needs work - toggling section
+        # drivetrain.turn_to_heading(0)
         # PID_drive(-1000, 0, -40, 0.2, 0.01, 0.01)
+        # drivetrain.turn_to_heading(-100)
+        # PID_drive(3000, -90, 40, 0.2, 0.01, 0.01)
+        # drivetrain.turn_to_heading(-10)
+        # drivetrain.set_drive_velocity(70)
+        # PID_drive(-1500, 0, -40, 0.2, 0.01, 0.01)
         # PID_drive(500, 0, 40, 0.2, 0.01, 0.01)
-        # PID_drive(-1000, 0, -40, 0.2, 0.01, 0.01)
+        # PID_drive(-1500, 0, -40, 0.2, 0.01, 0.01)
+        # PID_drive(500, 0, 40, 0.2, 0.01, 0.01)
 
         #recf auton
         # PID_drive(1800, 0, 15, 0.2, 0.01, 0.01) 
@@ -238,18 +239,19 @@ def autonomous():
         drivetrain.turn_to_heading(90)
         PID_drive(1500, 90, 40, 0.2, 0.01, 0.01)
         arm_group.spin_for(FORWARD, 0.8, SECONDS)
-        claw_group.spin_for(FORWARD, 0.5, SECONDS)
+        claw_group.spin_for(FORWARD, 0.5, SECONDS) #scores preload here
         wait(500, MSEC)
         arm_group.spin_for(REVERSE, 1, SECONDS)
         PID_drive(-1000, 90, -40, 0.2, 0.01, 0.01)
+
         drivetrain.turn_to_heading(0)
-        PID_drive(-800, 90, -40, 0.2, 0.01, 0.01)
+        PID_drive(-800, 0, -40, 0.2, 0.01, 0.01) #change this value to line up with loader
         drivetrain.turn_to_heading(-90)
         arm_group.spin_for(FORWARD, 1.2, SECONDS)
-        PID_drive(1500, -90, 40, 0.2, 0.01, 0.01)
+        PID_drive(1800, -90, 40, 0.2, 0.01, 0.01)
         claw_group.spin(REVERSE)
         arm_group.spin_for(REVERSE, 0.3, SECONDS)
-        PID_drive(-1500, -90, -40, 0.2, 0.01, 0.01) #adjust this value
+        PID_drive(-1500, -90, -40, 0.2, 0.01, 0.01) #change this value to line up with goal
         arm_group.spin_for(REVERSE, 0.7, SECONDS)
         drivetrain.turn_to_heading(0)
         drivetrain.drive_for(FORWARD, 12)
